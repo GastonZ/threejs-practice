@@ -60,12 +60,12 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('./space.png');
+const spaceTexture = new THREE.TextureLoader().load('https://cdn.discordapp.com/attachments/516460578957557762/1060515659680862308/space.png');
 scene.background = spaceTexture;
 
 // Avatar
 
-const jeffTexture = new THREE.TextureLoader().load('https://ih1.redbubble.net/image.4539727621.2971/st,small,507x507-pad,600x600,f8f8f8.jpg');
+const jeffTexture = new THREE.TextureLoader().load('https://cdn.discordapp.com/attachments/516460578957557762/1059937201368076308/Gastonzappullaport.jpg');
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
@@ -73,8 +73,8 @@ scene.add(jeff);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load('./moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('./normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('https://cdn.discordapp.com/attachments/516460578957557762/1060515659135598612/moon.jpg');
+const normalTexture = new THREE.TextureLoader().load('https://cdn.discordapp.com/attachments/516460578957557762/1060515659429191740/normal.jpg');
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
