@@ -60,7 +60,7 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('https://oasishoteles.com/blog/wp-content/uploads/2021/01/cielo-estrellado.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 scene.background = spaceTexture;
 
 // Avatar
