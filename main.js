@@ -60,7 +60,7 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('https://w0.peakpx.com/wallpaper/707/845/HD-wallpaper-a-starry-galactic-vision-stars-clouds-space-universe-galaxies.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://oasishoteles.com/blog/wp-content/uploads/2021/01/cielo-estrellado.jpg');
 scene.background = spaceTexture;
 
 // Avatar
