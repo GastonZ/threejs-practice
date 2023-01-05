@@ -16,7 +16,7 @@ canvas {
 
 
 main {
-  width: 100vw;
+/*   width: 100vw; */
   color: white;
   z-index: 99;
   position: absolute;
