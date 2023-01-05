@@ -48,6 +48,7 @@ canvas {
     font-size: 2.5rem;
     padding: 2rem;
     margin-bottom: var(--spacing);
+    border-radius: 10px;
   }
 
   section {
@@ -64,6 +65,7 @@ canvas {
     padding: 0;
     grid-column: 2 / span 9;
     margin-bottom: var(--spacing);
+    padding: 5px;
   }
 
   blockquote p {
@@ -76,4 +78,9 @@ canvas {
 
   .left {
     grid-column: 6 / 12;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f0ffff;
   }
