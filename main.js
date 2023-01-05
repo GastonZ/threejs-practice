@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const jeffTexture = new THREE.TextureLoader().load('https://cdn.discordapp.com/attachments/516460578957557762/1059937201368076308/Gastonzappullaport.jpg');
+const jeffTexture = new THREE.TextureLoader().load('https://cdn.myanimelist.net/images/userimages/16128347.jpg?t=1672918800');
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
