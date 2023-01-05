@@ -60,12 +60,12 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('https://cdn.discordapp.com/attachments/516460578957557762/1060515659680862308/space.png');
+const spaceTexture = new THREE.TextureLoader().load('https://w0.peakpx.com/wallpaper/707/845/HD-wallpaper-a-starry-galactic-vision-stars-clouds-space-universe-galaxies.jpg');
 scene.background = spaceTexture;
 
 // Avatar
 
-const jeffTexture = new THREE.TextureLoader().load('https://cdn.myanimelist.net/images/characters/7/461218.jpg');
+const jeffTexture = new THREE.TextureLoader().load('gastonzappullaport.jpg');
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
@@ -73,8 +73,8 @@ scene.add(jeff);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load('https://cdn.discordapp.com/attachments/516460578957557762/1060515659135598612/moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('https://cdn.discordapp.com/attachments/516460578957557762/1060515659429191740/normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Moon_texture.jpg/720px-Moon_texture.jpg');
+const normalTexture = new THREE.TextureLoader().load('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d71d8fb9-465b-4438-9ea6-7e93d49edd68/d7lpe0w-6b63d757-1367-4daa-808e-74c1a9fe9c8a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q3MWQ4ZmI5LTQ2NWItNDQzOC05ZWE2LTdlOTNkNDllZGQ2OFwvZDdscGUwdy02YjYzZDc1Ny0xMzY3LTRkYWEtODA4ZS03NGMxYTlmZTljOGEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.azAMqy6AuXByty6fJ3KFVe3V1ne3J861QLVcBo6wctw');
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
